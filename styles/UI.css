@@ -43,3 +43,14 @@ h4{
     color: rgb(211, 134, 34);
     text-align: center;
 }
+
+button{
+    background-color: rgb(36, 216, 186);
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    border-radius: 5%;
+    color: rgb(23, 63, 63);
+    box-shadow: darkred;
+    font-weight: bold;
+}
