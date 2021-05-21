@@ -1,0 +1,39 @@
+
+  body {
+    width: 960px;
+    margin: 0 auto;
+    margin-left: 250px;
+    background-color: rgb(31, 235, 75);
+  }
+ .full-img{
+     position: relative;
+ }
+
+  #prev{
+    position: absolute;
+    top: 50%;
+    right: 98%;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  #next{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  
+  
+  .imageSet img {
+    display: block;
+    width: 13%;
+    float: left;
+    cursor: pointer;
+  }
