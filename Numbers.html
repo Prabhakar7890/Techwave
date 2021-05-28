@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <script src="jquery.js"></script>
+        <script src="Numbers.js"></script>
+        <link href="Numbers.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="form">
+                <input type="number" id="number">
+                <div class="buttons">
+                <button id="getFact">Get Fact</button>
+                <button id="getMathFact">Get Mathematical fact</button>
+                </div>
+            </div>
+            <div class="form">
+                <div>
+                    <input type="number" id="day" placeholder="day">
+                    <input type="number" id="month" placeholder="month">
+                </div>
+                <div class="buttons">
+                    <button id="getTodayFact">Get Today's fact</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="result">
+            <div class="row"> 
+                <div class="header">Fact about this number:</div>
+                <p id="factresult"></p>
+            </div>
+            <div class="row"> 
+                <div class="header">Mathematical importance of the number:</div>
+                <p id="mathfactresult"></p>
+            </div>
+            <div class="row"> 
+                <div class="header">Today in history</div>
+                <p id="todayresult"></p>
+            </div>
+    </body>
+</html>
